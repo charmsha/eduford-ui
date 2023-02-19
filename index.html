@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5s">>
+    <title>University Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a  href="index.html"><img src="Pictures/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">HOME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's biggest University</h1>
+            <p>Learning Website development is easier due to advent of new technology.</p>
+            <a href="" class="hero-btn">Visit us to know more.</a>
+        </div>
+
+    </section>
+    
+    <!-- COURSE -->
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Html,css,javascript</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Ic engine,diesel engine,millright,machinist,hfvje fhbj fhbvejejbv</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Ic engine,diesel engine,millright,machinist,hfvje fhbj fhbvejejbv</p>
+            </div>
+            
+            <div class="course-col">
+                <h3>post-graduation</h3>
+                <p>Ic engine,diesel engine,millright,machinist,hfvje fhbj fhbvejejbv</p>
+            </div>
+            
+        </div>
+
+
+
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>Our Global campus</h1>
+        <p>fngke kfek kfkvbekfkef gubfwf rfjekkg.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="pictures/london.png"  alt="London">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+                </div>
+
+            <div class="campus-col">
+                <img src="pictures/newyork.png" alt="new york">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="pictures/washington.png" alt="washingtons">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+                
+            </div>    
+                
+            </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>dfgsjfg fgejrgeg rgjegeg ygsdgngkskfs sfjhfgs.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Pictures/library.png">
+                <h3>World Class Library</h3>
+                <p>sfge dfhgkkeg ejrgjegb fgjejge egerge ege jhrjeg ejgrejhgbj.</p>
+            </div>
+        
+            <div class="facilities-col">
+                <img src="Pictures/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>sfge dfhgkkeg ejrgjegb fgjejge egerge ege jhrjeg ejgrejhgbj.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="Pictures/cafeteria.png">
+                <h3>Amazing cafeteria</h3>
+                <p>sfge dfhgkkeg ejrgjegb fgjejge egerge ege jhrjeg ejgrejhgbj.</p>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Testimoninal -->
+    <section class="Testimonial">
+        <h1>What Our Students Say</h1>
+        <p>Attending this university was a blessing to me.It gave me real life skills which i needed. </p>
+        
+        <div class="row">
+            <div class="testimonial-col">
+            <img src="Pictures/user1.jpg">
+            <div>
+                <p>hv fhvbveh ekefbe ekbkjej ekgrbe erhhgbjejh egbjghej ejhgj egbej egej.</p>
+                <h3>Christia Burkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+        </div>
+
+
+        <div class="testimonial-col">
+        <img src="Pictures/user2.jpg">
+        <div>
+            <p>hv fhvbveh ekefbe ekbkjej ekgrbe erhhgbjejh egbjghej ejhgj egbej egej.</p>
+            <h3>Frank Jain</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+    </div>
+
+
+    
+    
+    
+    </section>
+
+
+
+    <!-- javascript -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right = "0";
+        
+        }
+
+        function hidemenu(){
+            navlinks.style.right = "-200";
+
+        }
+    </script>
+    
+</body>
+</html>
